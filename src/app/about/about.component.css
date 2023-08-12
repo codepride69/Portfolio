@@ -1,0 +1,51 @@
+.about-pg{
+    align-items: center;
+    align-content: center;
+    font-size: larger;
+}
+.services-style{
+    color: blue;
+}
+.center-text{
+    text-align: center;
+    font-style: italic;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: orange;
+}
+.main{
+    flex: 1.5;
+    padding-left: 2rem;
+    align-self: flex-start;
+    border-radius: 20px;
+}
+.container {
+    display: flex;
+    align-items: top;
+    justify-content:center;
+    padding: 1rem;
+    background-color: aquamarine;
+  }
+  .sides{
+    flex: 1;
+    padding-right: 2rem;
+    height: auto;
+  }
+  .image {
+    flex: 1;
+    text-align: right; /* Align the image to the right */
+    padding-right: 2rem; /* Add padding on the right for spacing */
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Add a border-radius for circular images */
+  }
+  .holder{
+    border-radius: 20px;
+    background-color: aqua;
+  }
+
+  
+    
+  

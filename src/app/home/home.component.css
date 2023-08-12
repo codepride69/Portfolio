@@ -1,0 +1,70 @@
+/* src/app/home/home.component.css */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 1rem;
+    background-color: aquamarine;
+    font-size: larger;
+  }
+  
+  .image {
+    flex: 1;
+    text-align: right; /* Align the image to the right */
+    padding-right: 2rem; /* Add padding on the right for spacing */
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Add a border-radius for circular images */
+  }
+  
+  .text {
+    flex: 1.5;
+    padding-left: 2rem;
+    position: relative;
+  }
+  
+  .text-content {
+    background-color: rgba(92, 200, 82, 0.8); /* Adjust the background color */
+    padding: 1rem;
+    border-radius: 20px; /* Adjust the border radius */
+    color: white;
+  }
+  
+  /* Additional styling for animations */
+  @keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  
+  .text h1 {
+    animation: fadeIn 1s ease-out;
+    color: rgb(136, 7, 249);
+  }
+  .text h2 {
+    animation: fadeIn 2s ease-out;
+    color: rgb(121, 13, 194);
+  }
+  .text p {
+    animation: fadeIn 3s ease-out;
+    font-size: 1.6rem;
+  }
+  .text p.elevator {
+    animation: fadeIn 3s ease-out;
+    font-size: 1.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: rgb(175, 249, 3);
+  }
+  .theme{
+    background-color: aquamarine;
+    height: auto;
+    width: auto;
+    overflow-x: hidden; /* Hide horizontal overflow */
+    display: flex;
+    flex-direction: column;
+}
+
+  

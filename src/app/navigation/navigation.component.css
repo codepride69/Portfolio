@@ -1,0 +1,26 @@
+/* src/app/navigation/navigation.component.css */
+.header {
+    background-color: rgba(18, 18, 17, 0.805);
+    padding: 1rem;
+    border-radius: 0px;
+    color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: orange;
+  }
+  

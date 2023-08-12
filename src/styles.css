@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+.theme{
+    background-color: aquamarine;
+    height: auto;
+    width: auto;
+    overflow-x: hidden; /* Hide horizontal overflow */
+    display: flex;
+    flex-direction: column;
+}
+.space{
+    padding: 2rem;
+}
+.h2{
+    color: blue;
+}
+.gold-text{
+    color: orange;
+    font-style: bold;
+}
+.blue-text{
+    color: blue;
+    font-style: bold;
+}
