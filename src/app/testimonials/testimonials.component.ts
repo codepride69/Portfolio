@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./testimonials.component.css']
 })
 export class TestimonialsComponent {
+  data = {
+    name:"Henry Gate",
+    service:"",
+    intro:"",
+    elevator:""
+  };
 
 }
